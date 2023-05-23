@@ -5,8 +5,10 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-primeiro_componente_do_grupo:email_primeiro_componente@dominio.com<br>
-segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
+Narley Alves: lemosnarley@gmail.com<br>
+Breno de Vargas: breno.scalzer@hotmail.com<br>
+Nathan Gonçalves : nathan_rg_@hotmail.com<br>
+Gabriel Davel : davelgabriel5@gmail.com<br>
 ...<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇÃO<br>
