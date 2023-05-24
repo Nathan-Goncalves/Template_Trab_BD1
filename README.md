@@ -31,11 +31,6 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 
 ### 4.PROTOTIPAÇÃO, PERGUNTAS A SEREM RESPONDIDAS E TABELA DE DADOS<br>
 #### 4.1 RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
-
-Sugestão: https://balsamiq.com/products/mockups/<br>
-
-
  ![Alt text](https://github.com/Nathan-Goncalves/Template_Trab_BD1/blob/master/images/protop1.jpg?raw=true "Title")
  ![Alt text](https://github.com/Nathan-Goncalves/Template_Trab_BD1/blob/master/images/protop2.jpg?raw=true "Title")
  ![Alt text](https://github.com/Nathan-Goncalves/Template_Trab_BD1/blob/master/images/protop3.jpg?raw=true "Title")
@@ -61,7 +56,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas/registros de dados.
     b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
     
-![Exemplo de Tabela de dados da Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/TabelaEmpresaDevCom_sample.xlsx?raw=true "Tabela - Empresa Devcom")
+![Exemplo de Tabela de dados da Empresa Devcom](https://github.com/Nathan-Goncalves/Template_Trab_BD1/blob/master/arquivos/tabela-de-dados.xlsx)?raw=true "Tabela")
     
     
 ### 5.MODELO CONCEITUAL<br>
