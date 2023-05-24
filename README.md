@@ -56,7 +56,7 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
     a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas/registros de dados.
     b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
     
-![Exemplo de Tabela de dados da Empresa Devcom](https://github.com/Nathan-Goncalves/Template_Trab_BD1/blob/master/arquivos/tabela-de-dados.xlsx)?raw=true "Tabela")
+![Tabela de dados](https://github.com/Nathan-Goncalves/Template_Trab_BD1/blob/master/arquivos/tabela-de-dados.xlsx?raw=true "Tabela")
     
     
 ### 5.MODELO CONCEITUAL<br>
