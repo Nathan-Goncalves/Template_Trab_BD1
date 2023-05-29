@@ -116,7 +116,36 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
-
+  a) Select com todas as informações que constam num anúncio.
+ SELECT imo.id, imo.preco, imo.qtd_quartos, imo.add_infos as
+descricao, imo.cep, imo.logradouro, comp.descricao as
+complemento, imo.bairro, imo.cidade, imo.estado,
+imo.area_m2, u.login as vendedor, u.email as
+vendedor_email
+FROM imovel_endereco imo
+LEFT OUTER JOIN complemento comp ON imo.id =
+comp.fk_endereco_id
+LEFT OUTER JOIN vendedor vend ON
+imo.fk_vendedor_fk_usuario_id = vend.FK_USUARIO_id
+LEFT OUTER JOIN usuario u ON vend.FK_USUARIO_id = u.id;
+![Alt text](https://github.com/Nathan-Goncalves/Template_Trab_BD1/blob/master/images/select1.png?raw=true "Select Principal")<br>
+ b) Select que retorna todas as informações de usuário.
+ SELECT * FROM usuario;
+![Alt text](https://github.com/Nathan-Goncalves/Template_Trab_BD1/blob/master/images/select2.png?raw=true "Select Usuário")<br>
+ c) Select que retorna todas as casas e apartamentos. 
+ SELECT imo.id, imo.preco, imo.qtd_quartos, imo.add_infos as
+descricao, imo.cep, imo.logradouro, comp.descricao as
+complemento, imo.bairro, imo.cidade, imo.estado,
+imo.area_m2, u.login as vendedor, u.email as
+vendedor_email
+FROM imovel_endereco imo
+LEFT OUTER JOIN complemento comp ON imo.id =
+comp.fk_endereco_id
+LEFT OUTER JOIN vendedor vend ON
+imo.fk_vendedor_fk_usuario_id = vend.FK_USUARIO_id
+LEFT OUTER JOIN usuario u ON vend.FK_USUARIO_id = u.id
+WHERE categoria IN ('casa', 'apartamento');
+ ![Alt text](https://github.com/Nathan-Goncalves/Template_Trab_BD1/blob/master/images/select3.png?raw=true "Select Casa e apartamento")<br>
 ># Marco de Entrega 01: Do item 1 até o item 9.1<br>
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
