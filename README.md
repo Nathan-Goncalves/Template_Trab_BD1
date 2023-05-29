@@ -100,87 +100,7 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 ### 7	MODELO FÍSICO<br>
         a) inclusão das instruções de criacão das estruturas em SQL/DDL 
         (criação de tabelas, alterações, etc..) 
-       CREATE TABLE VENDEDOR (
-    FK_USUARIO_id INTEGER PRIMARY KEY
-);
-
-CREATE TABLE IMOVEL_ENDERECO (
-    id INTEGER PRIMARY KEY,
-    preco FLOAT,
-    categoria VARCHAR,
-    tipo_pag VARCHAR,
-    qtd_quartos INTEGER,
-    add_infos VARCHAR,
-    FK_VENDEDOR_FK_USUARIO_id INTEGER,
-    cep VARCHAR,
-    logradouro VARCHAR,
-    bairro VARCHAR,
-    cidade VARCHAR,
-    estado VARCHAR
-);
-
-CREATE TABLE COMPLEMENTO (
-    id INTEGER PRIMARY KEY,
-    descricao VARCHAR,
-    FK_ENDERECO_id INTEGER
-);
-
-CREATE TABLE USUARIO (
-    id INTEGER PRIMARY KEY,
-    cpf VARCHAR,
-    tel VARCHAR,
-    email VARCHAR,
-    login VARCHAR,
-    senha VARCHAR
-);
-
-CREATE TABLE CLIENTE (
-    FK_USUARIO_id INTEGER PRIMARY KEY
-);
-
-CREATE TABLE Compra (
-    fk_CLIENTE_FK_USUARIO_id INTEGER,
-    fk_IMOVEL_ENDERECO_id INTEGER
-);
- 
-ALTER TABLE
-  VENDEDOR
-ADD
-  CONSTRAINT FK_VENDEDOR_2 FOREIGN KEY (FK_USUARIO_id) REFERENCES USUARIO (id) ON DELETE CASCADE;
-
-
- 
-ALTER TABLE
-  IMOVEL_ENDERECO
-ADD
-  CONSTRAINT FK_IMOVEL_ENDERECO_2 FOREIGN KEY (FK_VENDEDOR_FK_USUARIO_id) REFERENCES VENDEDOR (FK_USUARIO_id) ON DELETE CASCADE;
-
- 
-ALTER TABLE COMPLEMENTO ADD CONSTRAINT FK_COMPLEMENTO_2
-    FOREIGN KEY (FK_ENDERECO_id)
-    REFERENCES ??? (???);
- 
-ALTER TABLE
-  CLIENTE
-ADD
-  CONSTRAINT FK_CLIENTE_2 FOREIGN KEY (FK_USUARIO_id) REFERENCES USUARIO (id) ON DELETE CASCADE;
-
-
- 
-ALTER TABLE
-  Compra
-ADD
-  CONSTRAINT FK_Compra_1 FOREIGN KEY (fk_CLIENTE_FK_USUARIO_id) REFERENCES CLIENTE (FK_USUARIO_id) ON DELETE
-SET
-  NULL;
-
-
-ALTER TABLE
-  Compra
-ADD
-  CONSTRAINT FK_Compra_2 FOREIGN KEY (fk_IMOVEL_ENDERECO_id) REFERENCES IMOVEL_ENDERECO (id) ON DELETE
-SET
-  NULL;
+   ![Modelo Físico](https://github.com/Nathan-Goncalves/Template_Trab_BD1/blob/master/arquivos/modelo-fisico.sql?raw=true "Modelo Físico") 
 
        
        
@@ -190,6 +110,7 @@ SET
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
+ ![Insert Aplicado](https://github.com/Nathan-Goncalves/Template_Trab_BD1/blob/master/arquivos/insert.sql?raw=true "Insert Aplicado")
 
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
