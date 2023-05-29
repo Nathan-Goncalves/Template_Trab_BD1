@@ -116,7 +116,7 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
-  a) Select com todas as informações que constam num anúncio.
+  a) Select com todas as informações que constam num anúncio.<br>
  SELECT imo.id, imo.preco, imo.qtd_quartos, imo.add_infos as
 descricao, imo.cep, imo.logradouro, comp.descricao as
 complemento, imo.bairro, imo.cidade, imo.estado,
@@ -129,10 +129,10 @@ LEFT OUTER JOIN vendedor vend ON
 imo.fk_vendedor_fk_usuario_id = vend.FK_USUARIO_id
 LEFT OUTER JOIN usuario u ON vend.FK_USUARIO_id = u.id;
 ![Alt text](https://github.com/Nathan-Goncalves/Template_Trab_BD1/blob/master/images/select1.png?raw=true "Select Principal")<br>
- b) Select que retorna todas as informações de usuário.
+ b) Select que retorna todas as informações de usuário.<br>
  SELECT * FROM usuario;
 ![Alt text](https://github.com/Nathan-Goncalves/Template_Trab_BD1/blob/master/images/select2.png?raw=true "Select Usuário")<br>
- c) Select que retorna todas as casas e apartamentos. 
+ c) Select que retorna todas as casas e apartamentos.<br> 
  SELECT imo.id, imo.preco, imo.qtd_quartos, imo.add_infos as
 descricao, imo.cep, imo.logradouro, comp.descricao as
 complemento, imo.bairro, imo.cidade, imo.estado,
