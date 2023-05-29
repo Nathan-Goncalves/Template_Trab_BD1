@@ -15,7 +15,9 @@ Gabriel Davel : davelgabriel5@gmail.com<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
 <br>e motivação da escolha realizada. <br>
 
-> A empresa "Devcom Projetos" visa colaborar com desenvolvimento de projetos para uma sociedade melhor. Sabendo-se dos desafios para gerenciar projetos dentro de uma empresa e visando unir as informações relativas a funcionários, departamentos e projetos em um mesmo local, ficamos motivados com o desenvolvimento deste sistema. O Sistema "Devcom" tem como objetivo gerenciar todas as informações ao desenvolvimento das atividades de projetos em diversas localidades do país. Para realizar suas operações adequadamente e empresa necessita que sistema que armazene informações relativas aos Projetos, Departamentos e Empregados, além de também armazenar dados sobre  Dependentes e Históricos de Salário dos empregados. O sistema deverá gerar um conjunto de relatórios que por sua vez atenderá os anseios da empresa em questão.
+>A motivação da empresa descrita no sistema de Buscas de Imóveis online é fornecer uma plataforma eficiente e conveniente para clientes que estão procurando por imóveis em uma determinada região. A empresa visa simplificar o processo de busca por imóveis, fornecendo um sistema de pesquisa que permite aos clientes encontrar anúncios de imóveis disponíveis de acordo com suas preferências.
+Além disso, a empresa tem como objetivo facilitar o contato entre o cliente interessado e o corretor do imóvel. Ao adicionar um imóvel à lista de interesse, os dados de contato do cliente são enviados para o corretor, juntamente com os detalhes do imóvel em questão. Isso permite que o corretor entre em contato com o cliente de forma eficiente e oportuna, facilitando o processo de negociação.
+Com relação aos dados de identificação, a empresa armazena o username e a password de cada usuário, mas esses não são usados como chaves de identificação. Isso significa que a empresa adota medidas adicionais de segurança para proteger a privacidade dos usuários e garantir a confidencialidade de suas informações.
  
 
 ### 3.MINI-MUNDO<br>
@@ -42,19 +44,18 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
-> A Empresa DevCom precisa inicialmente dos seguintes relatórios:
-* Relatório que mostre o nome de cada supervisor(a) e a quantidade de empregados supervisionados.
-* Relatório relativo aos os supervisores e supervisionados. O resultado deve conter o nome do supervisor e nome do supervisionado além da quantidade total de horas que cada supervisionado tem alocada aos projetos existentes na empresa.
-* Relatorio que mostre para cada linha obtida o nome do departamento, o valor individual de cada salario existente no  departamento e a média geral de salarios dentre todos os empregados. Os resultados devem ser apresentados ordenados por departamento.
-* Relatório que mostre as informações relacionadas a todos empregados de empresa (sem excluir ninguém). As linhas resultantes devem conter informações sobre: rg, nome, salario do empregado, data de início do salario atual, nomes dos projetos que participa, quantidade de horas e localização nos referidos projetos, numero e nome dos departamentos aos quais está alocado, informações do historico de salário como inicio, fim, e valores de salarios antigos que foram inclusos na referida tabela (caso possuam informações na mesma), além de todas informações relativas aos dependentes. 
->> ##### Observações: <br> a) perceba que este relatório pode conter linhas com alguns dados repetidos (mas não todos). <br>  b) para os empregados que não possuirem alguma destas informações o valor no registro deve aparecer sem informação/nulo. 
-* Relatório que obtenha a frequencia absoluta e frequencia relativa da quantidade de cpfs únicos no relatório anterior. Apresente os resultados ordenados de forma decrescente pela frequencia relativa.
+> A Empresa de anúncio de imóveis precisa inicialmente dos seguintes relatórios:
+* Relatório de todos os imóveis anunciados na plataforma, com todas os dados que deverão ser exibidos nos anúncios.
+* Relatório relativo aos usuários cadastrados na plataforma, sejam eles vendedores ou clientes.
+* Relatorio que mostre todos os imóveis filtrados por categoria, sejam apartamentos, lotes ou casas.
+* Relatório que mostre todos os imóveis filtrados por localidade. 
+* Relatório que mostre todos os anúncios de imóveis e seus respectivos vendedores.
+>> ##### Observações: <br> a) perceba que este relatório pode conter linhas com alguns dados de vendedores repetidos. 
 
  
  
 #### 4.3 TABELA DE DADOS DO SISTEMA:
-    a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas/registros de dados.
-    b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
+   
     
 ![Tabela de dados](https://github.com/Nathan-Goncalves/Template_Trab_BD1/blob/master/arquivos/tabela-de-dados.xlsx?raw=true "Tabela")
     
