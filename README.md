@@ -70,7 +70,7 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
         Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
         e tuplas falsas (Aplicar os conceitos de normalização abordados).   
         
-![Alt text](https://github.com/discipbd1/trab01/blob/master/images/concept_sample.png?raw=true "Modelo Conceitual")
+![Alt text](https://github.com/Nathan-Goncalves/Template_Trab_BD1/blob/master/images/modelo-conceitual.png?raw=true "Modelo Conceitual")
     
     
         
@@ -83,19 +83,24 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
     [objeto]: [descrição do objeto]
     
     EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+    LOGIN      : Tabela que armazena as informações relacionadas credenciais de usuário.<br>
+    CLIENTE    : Tabela que armazena as informações relacionadas ao cliente, como informações de contato, etc.<br>
+    VENDEDOR   : Tabela que armazena as informações relacionadas ao vendedor, como informações de contato, etc.<br>
+    IMOVEL     : Tabela que armazena as informações relacionadas ao imóvel, como informações de localização, características, informações do vendedor, etc.<br>
+    ENDEREÇO   : Tabela que armazena as informações relacionadas aos endereços dos imóveis, logradouro, cidade, estado e complemento, se existir.<br>
+    COMPLEMENTO: Tabela que armazena as informações relacionadas complemento do endereço do imóvel.<br>
 
 
 ### 6	MODELO LÓGICO<br>
         a) inclusão do esquema lógico do banco de dados
         b) verificação de correspondencia com o modelo conceitual 
         (não serão aceitos modelos que não estejam em conformidade)
+ ![Alt text](https://github.com/Nathan-Goncalves/Template_Trab_BD1/blob/master/images/modelo-logico.png?raw=true "Modelo Lógico")
 
 ### 7	MODELO FÍSICO<br>
         a) inclusão das instruções de criacão das estruturas em SQL/DDL 
         (criação de tabelas, alterações, etc..) 
-        
+       
        
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
         a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
