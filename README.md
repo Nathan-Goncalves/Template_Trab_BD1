@@ -28,7 +28,7 @@ Descrição textual das regras de negócio definidas como um  subconjunto do mun
 cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
 gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 
-> Em um determinado sistema de Buscas de Imóveis online, um cliente pode fazer uma pesquisa sobre anúncios de imóveis disponíveis para ele na região de sua preferência, acompanhado por um mapa. Cada imóvel pode ser adicionado à lista de interesse do cliente. Os interesses devem ser enviados para o corretor do Imóvel juntamente com a forma de contato do interessado. Com relação aos dados da IDENTIFICAÇÃO deve-se armazenar o username e password de cada usuário (mas estes não devem ser chaves de identificação). Tanto cliente quanto vendedor devem cadastrar seus números de telefone, email e cpf.
+> Em um determinado sistema de Buscas de Imóveis online, um usuario que possui(atributos), pode fazer uma pesquisa sobre anúncios de imóveis disponíveis para ele na região de sua preferência, acompanhado por um mapa. Cada imóvel pode ser adicionado à lista de interesse do cliente. Os interesses devem ser enviados para o corretor do Imóvel juntamente com a forma de contato do interessado. Com relação aos dados da IDENTIFICAÇÃO deve-se armazenar o username e password de cada usuário (mas estes não devem ser chaves de identificação). Tanto cliente quanto vendedor devem cadastrar seus números de telefone, email e cpf.
  
 
 ### 4.PROTOTIPAÇÃO, PERGUNTAS A SEREM RESPONDIDAS E TABELA DE DADOS<br>
