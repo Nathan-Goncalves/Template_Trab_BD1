@@ -70,7 +70,7 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
         Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
         e tuplas falsas (Aplicar os conceitos de normalização abordados).   
         
-![Alt text](https://github.com/Nathan-Goncalves/Template_Trab_BD1/blob/master/images/modelo-conceitual.png?raw=true "Modelo Conceitual")
+
     
     
         
