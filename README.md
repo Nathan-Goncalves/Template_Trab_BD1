@@ -28,7 +28,7 @@ Descrição textual das regras de negócio definidas como um  subconjunto do mun
 cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
 gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 
-> Em um determinado sistema de Buscas de Imóveis online, um usuario que possui(atributos), pode fazer uma pesquisa sobre anúncios de imóveis disponíveis para ele na região de sua preferência, acompanhado por um mapa. Cada imóvel pode ser adicionado à lista de interesse do cliente. Os interesses devem ser enviados para o corretor do Imóvel juntamente com a forma de contato do interessado. Com relação aos dados da IDENTIFICAÇÃO deve-se armazenar o username e password de cada usuário (mas estes não devem ser chaves de identificação). Tanto cliente quanto vendedor devem cadastrar seus números de telefone, email e cpf.
+> Em um determinado sistema de Buscas de Imóveis online, um usuario que possui cpf, telefone, email, login e senha, pode fazer uma pesquisa sobre anúncios de imóveis disponíveis para ele na região de sua preferência, acompanhado por um mapa, tanto como pode anunciar imóveis de sua preferência, se configurando um vendedor. Cada imóvel possui um preço, uma categoria (apartamento, casa, lote), quantidade de quartos (caso categoria for casa ou apartamento), um texto de descrição e informações de endereço (cep, logradouro, bairro, cidade, estado), cada imóvel pode ter ou não um complemento, imóvel pode ser pesquisado pelo cliente usando a busca no sistema, a partir disso pode entrar em contato com o vendedor responsável para fazer negócio. Os interesses devem ser enviados para o corretor do Imóvel juntamente com a forma de contato do interessado. Com relação aos dados da IDENTIFICAÇÃO deve-se armazenar o username e password de cada usuário (mas estes não devem ser chaves de identificação). Tanto cliente quanto vendedor devem cadastrar seus números de telefone, email e cpf.
  
 
 ### 4.PROTOTIPAÇÃO, PERGUNTAS A SEREM RESPONDIDAS E TABELA DE DADOS<br>
@@ -63,14 +63,14 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 ### 5.MODELO CONCEITUAL<br>
     A) Utilizar a Notação adequada (Preferencialmente utilizar o BR Modelo 3)
     B) O mínimo de entidades do modelo conceitual pare este trabalho será igual a 3 e o Máximo 5.
-        * informe quais são as 3 principais entidades do sistema em densenvolvimento<br>(se houverem mais de 3 entidades, pense na importância da entidade para o sistema)       ![Alt text](https://github.com/Nathan-Goncalves/Template_Trab_BD1/blob/master/images/modelo-conceitual.png?raw=true "Modelo Conceitual")
+        * informe quais são as 3 principais entidades do sistema em densenvolvimento<br>(se houverem mais de 3 entidades, pense na importância da entidade para o sistema)       
     C) Principais fluxos de informação/entidades do sistema (mínimo 3). <br>Dica: normalmente estes fluxos estão associados as tabelas que conterão maior quantidade de dados 
     D) Qualidade e Clareza
         Garantir que a semântica dos atributos seja clara no esquema (nomes coerentes com os dados).
         Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
         e tuplas falsas (Aplicar os conceitos de normalização abordados).   
         
-
+![Alt text](https://github.com/Nathan-Goncalves/Template_Trab_BD1/blob/master/images/modelo-conceitual1.png?raw=true "Modelo Conceitual")
     
     
         
