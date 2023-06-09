@@ -83,12 +83,11 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
     [objeto]: [descrição do objeto]
     
     EXEMPLO:
-    USUARIO    : Tabela que armazena as informações relacionadas credenciais de usuário. Contendo os atributos id, <br>
-    CLIENTE    : Tabela que armazena as informações relacionadas ao cliente, como informações de contato, etc.<br>
-    VENDEDOR   : Tabela que armazena as informações relacionadas ao vendedor, como informações de contato, etc.<br>
-    IMOVEL     : Tabela que armazena as informações relacionadas ao imóvel, como informações de localização, características, informações do vendedor, etc.<br>
-    ENDEREÇO   : Tabela que armazena as informações relacionadas aos endereços dos imóveis, logradouro, cidade, estado e complemento, se existir.<br>
-    COMPLEMENTO: Tabela que armazena as informações relacionadas complemento do endereço do imóvel.<br>
+    USUARIO        : Tabela que armazena as informações relacionadas credenciais de usuário. Contendo os atributos id, cpf, telefone, email, login e senha.<br>
+    CLIENTE        : Tabela que herda da tabela USUARIO as informações relacionadas ao cliente, como informações de contato, etc.<br>
+    VENDEDOR       : Tabela que herda da tabela USUARIO as informações relacionadas ao vendedor, como informações de contato, etc.<br>
+    IMOVEL_ENDERECO: Tabela que armazena as informações relacionadas ao imóvel. Contendo os atributos de preco, categoria, qtd_quartos, add_infos, cep, logradouro, bairro, cidade e estado.<br>
+    COMPLEMENTO    : Tabela que armazena as informações relacionadas complemento do endereço do imóvel, caso o imóvel possua complemento.<br>
 
 
 ### 6	MODELO LÓGICO<br>
