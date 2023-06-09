@@ -43,7 +43,7 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
-    
+   
 > A Empresa de anúncio de imóveis precisa inicialmente dos seguintes relatórios:
 * Relatório de todos os imóveis anunciados na plataforma, com todas os dados que deverão ser exibidos nos anúncios.
 * Relatório relativo aos usuários cadastrados na plataforma, sejam eles vendedores ou clientes.
@@ -57,7 +57,7 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 #### 4.3 TABELA DE DADOS DO SISTEMA:
    
     
-![Tabela de dados](https://github.com/Nathan-Goncalves/Template_Trab_BD1/blob/master/arquivos/tabela-de-dados.xlsx?raw=true "Tabela")
+![Tabela de dados](https://github.com/Nathan-Goncalves/Template_Trab_BD1/blob/master/arquivos/tabela-de-dados-final.xlsx?raw=true "Tabela")
     
     
 ### 5.MODELO CONCEITUAL<br>
@@ -83,7 +83,7 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
     [objeto]: [descrição do objeto]
     
     EXEMPLO:
-    LOGIN      : Tabela que armazena as informações relacionadas credenciais de usuário.<br>
+    USUARIO    : Tabela que armazena as informações relacionadas credenciais de usuário. Contendo os atributos id, <br>
     CLIENTE    : Tabela que armazena as informações relacionadas ao cliente, como informações de contato, etc.<br>
     VENDEDOR   : Tabela que armazena as informações relacionadas ao vendedor, como informações de contato, etc.<br>
     IMOVEL     : Tabela que armazena as informações relacionadas ao imóvel, como informações de localização, características, informações do vendedor, etc.<br>
