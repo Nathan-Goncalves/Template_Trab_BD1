@@ -156,6 +156,7 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 
 ### 10 RELATÓRIOS E GRÁFICOS
 
+[Link Colab Relatórios](https://colab.research.google.com/drive/14XZrhFMijyvNoG5CIjtxHpV2UKtC9PQF?usp=sharing)
 #### a) análises e resultados provenientes do banco de dados desenvolvido (usar modelo disponível)
 #### b) link com exemplo de relatórios será disponiblizado pelo professor no AVA
 #### OBS: Esta é uma atividade de grande relevância no contexto do trabalho. Mantenha o foco nos 5 principais relatórios/resultados visando obter o melhor resultado possível.
