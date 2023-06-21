@@ -123,17 +123,6 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
- >SELECT * FROM imovel_endereco imo WHERE categoria = 'apartamento' AND area_m2 > 50;<br>
- ![Alt text](https://github.com/Nathan-Goncalves/Template_Trab_BD1/blob/master/images/query1.png?raw=true "Query 1")<br>
- SELECT * FROM imovel_endereco imo WHERE categoria = 'apartamento' OR categoria = 'casa' AND area_m2 > 50;<br>
- ![Alt text](https://github.com/Nathan-Goncalves/Template_Trab_BD1/blob/master/images/query2.png?raw=true "Query 2")<br>
- SELECT * FROM imovel_endereco imo WHERE imo.cidade = 'Serra' AND imo.bairro NOT IN('Morada de Laranjeiras', 'Praia da Baleia');<br>
- ![Alt text](https://github.com/Nathan-Goncalves/Template_Trab_BD1/blob/master/images/query3.png?raw=true "Query 3")<br>
- SELECT * FROM imovel_endereco imo WHERE imo.categoria = 'apartamento' AND (area_m2 > 40 OR qtd_quartos >= 3);<br>
- ![Alt text](https://github.com/Nathan-Goncalves/Template_Trab_BD1/blob/master/images/query4.png?raw=true "Query 4")<br>
- SELECT * FROM imovel_endereco imo WHERE imo.categoria = 'apartamento' AND imo.preco < 200000;<br>
- ![Alt text](https://github.com/Nathan-Goncalves/Template_Trab_BD1/blob/master/images/query5.png?raw=true "Query 5")<br>
-
     b) Criar no mínimo 3 consultas com operadores aritméticos 
     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
 
